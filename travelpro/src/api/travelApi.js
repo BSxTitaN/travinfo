@@ -10,7 +10,7 @@ export const getPlacesData = async (type, sw, ne) => {
         tr_longitude: ne.lng,
         tr_latitude: ne.lat,
         currency: 'INR',
-        checkin: '2022-04-01',
+        checkin: '2022-04-30',
       },
       headers: {
         'x-rapidapi-key': process.env.REACT_APP_RAPID_API_TRAVEL_API_KEY,

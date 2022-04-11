@@ -12,6 +12,7 @@ import {UserContext} from './context/UserContext';
 import Form from "./pages/Form";
 import Edit from "./pages/Edit";
 import AddArt from "./pages/AddArt";
+import Work from "./pages/Work";
 
 export default function App() {
 
@@ -30,6 +31,7 @@ export default function App() {
           <Route path="search" element={<SearchR />} />
           <Route path="feedback" element={<Form />} /> 
           <Route path="editarticle" element={<AddArt />} />
+          <Route path="how-it-work" element={<Work />} />
           </>
         )}
         {!user && (

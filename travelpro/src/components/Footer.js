@@ -1,6 +1,7 @@
 import styled from "styled-components";
-import { Globe, DollarSign, Facebook, Twitter, Instagram } from "react-feather";
+import { Globe, Instagram } from "react-feather";
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -9,36 +10,29 @@ export default function Footer() {
         <span>
           <h2>About</h2>
           <ul>
-            <li>How TravInfo works</li>
-            <li>Articleroom</li>
-            <li>TravInfo 2022</li>
-            <li>Investors</li>
+            <Link to="/how-it-work"><li>How TravInfo works</li></Link>
+            <Link to="/article"><li>Articleroom</li></Link>
+            <Link to="/"><li>TravInfo 2022</li></Link>
           </ul>
         </span>
         <span>
           <h2>Community</h2>
           <ul>
-            <li>Diversity & Belonging</li>
-            <li>Accessibility</li>
-            <li>TravInfo Associates</li>
-            <li>Frontline Stays</li>
-            <li>Guest Referrals</li>
-            <li>Travinfo.com</li>
+          <Link to="/"><li>Travinfo.com</li></Link>
           </ul>
         </span>
         <span>
           <h2>Explore</h2>
           <ul>
-            <li>Write a Review</li>
-            <li>Travellers Choice</li>
-            <li>Travel Article</li>
+            <Link to="/feedback"><li>Write a Review</li></Link>
+            <Link to="https://www.tripadvisor.in/TravelersChoice"><li>Travellers Choice</li></Link>
+            <Link to="/editarticle"><li>Travel Article</li></Link>
           </ul>
         </span>
         <span>
           <h2>Support</h2>
           <ul>
-            <li>Our COVID-19 Response</li>
-            <li>Help Centre</li>
+          <Link to="/feedback"><li>Help Centre</li></Link>
           </ul>
         </span>
         <span className="footer-bottom">
