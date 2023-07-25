@@ -9,7 +9,11 @@
 
 > This is a travel based web-app that allows you to find all the best nearby hotels, restaurants, and places of attraction that you would along with price comparison API and access to powerful and interactive Google Map API. Here is the project demo:
 
-!["HomePage"](https://www.gstatic.com/acx/play/console/play_console_ui_20230719_0240_RC00/main/play.console.ui.common.images/logos/navigation_menu.svg)
+![HomePage](https://github.com/BSxTitaN/travinfo/assets/68631333/5ea8fb10-0a4b-4972-8f5d-3963d50a94f5)
+![InfoPage](https://github.com/BSxTitaN/travinfo/assets/68631333/ead00633-68e6-47bc-96f2-b61bacef278f)
+![AddPage](https://github.com/BSxTitaN/travinfo/assets/68631333/4efa67a9-a37d-46f9-a1e9-392911aae52a)
+
+
 
 ## Author
 
